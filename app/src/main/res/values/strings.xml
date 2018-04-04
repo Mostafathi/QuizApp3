@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pyramids</string>
+    <string name="quiz_desc">Choose the correct country for each pyramid !!</string>
+    <string name="name_entry">Enter Your Name</string>
+    <string name="open_ques">Write your answer here ... </string>
+    <string name="quiz_Start">Start Quiz</string>
+    <string name="first_intro_Word">Pyramids</string>
+    <string name="second_intro_Word">Around</string>
+    <string name="third_intro_Word">The World !</string>
+    <string name="question_desc1">Which country is correct..</string>
+    <string name="question_desc1_1">Multiple answers</string>
+    <string name="question_desc1_2">Based on th photo of these three pyramids</string>
+    <string name="question_desc2">Select one of the following answers .. </string>
+    <string name="question_desc2_1">Choose all statues/pyramids names in the photo</string>
+    <string name="question_desc2_2">Write the name of the largest pyramid</string>
+    <string name="full_mark">All are correct :)</string>
+    <string name="not_all_correct">Try again to get all results correct</string>
+    <string name="answer1">Egypt</string>
+    <string name="answer2">Mexico</string>
+    <string name="answer3">United States of America</string>
+    <string name="answer4">Sudan</string>
+    <string name="Multi_answer1">Sphinx</string>
+    <string name="Multi_answer2">Pyramids of Giza</string>
+    <string name="Multi_answer3">Abu Simbel</string>
+    <string name="Multi_answer4">Ramesses II</string>
+    <string name="back">Previous Question</string>
+    <string name="back_to_home">Home</string>
+    <string name="forward">Next Question</string>
+    <string name="forward_done">Submit</string>
+    <string name="question1_desc">The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the three pyramids in the Giza pyramid. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact </string>
+    <string name="question2_desc">located an ancient Mesoamerican city, known today as the site of many of the most architecturally significant Mesoamerican pyramids built in the pre-Columbian Americas, The early history of Teotihuacan is quite mysterious, and the origin of its founders is uncertain. Around 300 BC, people of the central and southeastern area of Mesoamerica began to gather into larger settlements.</string>
+    <string name="question3_desc">Luxor is a hotel and casino, Luxor has a 120,000-square-foot (11,000 m2) casino with over 2,000 slot machines and 87 table games.The hotel is named after the city of Luxor (ancient Thebes) in Egypt.[</string>
+    <string name="question4_desc">Nubian pyramids are pyramids that were built by the rulers of the ancient Kushite kingdoms, The area of the Nile valley known as Nubia, was home to three Kushite kingdoms during antiquity. The first had its capital at Kerma (2600–1520 BC). The second was centered on Napata (1000–300 BC). Finally, the last kingdom was centered on Meroë (300 BC–AD 300). They are built of granite and sandstone.</string>
+    <string name="question5_desc">In Greek tradition, it has the head of a human, the haunches of a lion, and sometimes the wings of a bird. It is mythicised as treacherous and merciless. Those who cannot answer its riddle suffer a fate typical in such mythological stories, as they are killed and eaten by this ravenous monster.[1] This deadly version of a sphinx appears in the myth and drama of Oedipus.[2] Unlike the Greek sphinx, which was a woman, the Egyptian sphinx is typically shown as a man (an androsphinx).</string>
+    <string name="question6_desc">The Giza pyramid complex, which includes among other structures the pyramids of Khufu, Khafre and Menkaure, is surrounded by a cyclopean stone wall, the Wall of the Crow. Mark Lehner has discovered a worker\'s town outside of the wall, otherwise known as The Lost City</string>
+</resources>

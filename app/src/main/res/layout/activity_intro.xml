@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/pics_row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/usa" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/egypt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sudan" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mexico" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/first_intro_Word"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:alpha="0.7"
+            android:background="@color/intro_word_color"
+            android:gravity="center"
+            android:text="@string/first_intro_Word"
+            android:textColor="@color/intro_word_background"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/second_intro_Word"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_intro_Word"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.7"
+            android:background="@color/intro_word_background"
+            android:gravity="center"
+            android:text="@string/second_intro_Word"
+            android:textColor="@color/intro_word_color"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/third_intro_Word"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_intro_Word"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.7"
+            android:background="@color/intro_word_background"
+            android:gravity="center"
+            android:text="@string/third_intro_Word"
+            android:textColor="@color/intro_word_color"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/start_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/start_quiz_background"
+            android:text="@string/quiz_Start"
+            android:textAllCaps="false"
+            android:textColor="@color/start_quiz_color" />
+
+        <TextView
+            android:id="@+id/quiz_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pics_row"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/quiz_desc"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/name_entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quiz_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:hint="@string/name_entry" />
+    </RelativeLayout>
+
+</ScrollView>
